@@ -23,8 +23,8 @@ Setting up the project
 It's a GoEuro service. To run the project, follow the instructions
 
 1) First clone the repository in your local system
-
    git clone https://github.com/krishnanagaraj/API-Query.git
+   
 2) Run the following command
 
    sudo mvn clean; sudo mvn package; sudo mvn jetty:run

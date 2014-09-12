@@ -3,7 +3,8 @@ API-Query
 
 This service is tested on Windows 8, installed with git version 1.9.0, and Apache Maven 3.0.4
 
-Pre requisite for running the service :
+Pre requisite for running the service
+-------------------------------------
 
 1) A system should have a stable internet connection
 
@@ -16,9 +17,10 @@ You should have a read access to clone the public repository from github.
 
  http://maven.apache.org/download.cgi
  
-Setting up the project a.k.a service
+Setting up the project
+----------------------
 
-It's a GoEuro web service. To run the project, follow the instructions
+It's a GoEuro service. To run the project, follow the instructions
 
 1) First clone the repository in your local system
 
@@ -28,6 +30,7 @@ It's a GoEuro web service. To run the project, follow the instructions
    sudo mvn clean; sudo mvn package; sudo mvn jetty:run
    
 Testing the service
+-------------------
 
 We need to use the command line for testing.
 
@@ -38,5 +41,6 @@ java -jar GoEuroTest.jar India
 Successfully created locations.csv file. File can be found here: C:\..\..
 
 For any assistance please reach out to me at
+--------------------------------------------
 
 krishna.nagaraj@yahoo.com

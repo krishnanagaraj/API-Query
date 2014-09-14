@@ -27,7 +27,7 @@ It's a GoEuro service. To run the project, follow the instructions
    
 2) Run the following command
 
-   sudo mvn clean; sudo mvn package; sudo mvn jetty:run
+   sudo mvn clean; sudo mvn package
    
 Testing the service
 -------------------
